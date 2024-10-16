@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.midnav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fn1 h1{
+    color: #5A2F27;
+    font-size: 30px;
+}
+.fn2 ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: #EDA911;
+}
+.span1{
+    color: #EDA911;
+}
+.main1{
+    width: 100%;
+    background-color:#f2f2f2;
+    padding: 40px;
+}
+.topmain1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+.leftmain1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.btn1{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 30px;
+}
+.heading{
+    font-size: 40px;
+    color: #5A2F27;
+}
+.main1content{
+    padding-left: 30px;
+}
+.rightmain1{
+    width: 50%;
+}
+.rightmid{
+    border-radius: 10px;
+    width: 80%;
+    height: 420px;
+    margin: auto;
+    background-color: #5A2F27;
+    border-top: 10px solid #EDA911;
+}
+input{
+    padding: 10px ;
+    color: white;
+    background-color: #5A2F27;
+    width: 80%;
+    margin: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.btn2{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin: 20px 120px;
+}
+.top2main2{
+    width: 70%;
+    margin: auto;
+}
+.top2main2, h1{
+    text-align: center;
+    padding: 30px;
+}
+.span2{
+    color: #EDA911;
+}
+.span3{
+    color: #5A2F27;
+}
+.cards{
+      width: 70%;
+      margin: auto;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+}
+.card{
+    width: 25%;
+    height: 250px;
+    position: relative;
+    background-color: #5A2F27;
+    color: white;
+}
+.imge{
+    height: 120px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 10px 50px;
+    position: absolute;
+    top: -70px;
+}
+.imge img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%; 
+}
+.cardtext{
+    text-align: center;
+    padding-top: 70px;
+}
+.cardtext h4{
+    padding: 10px;
+}
+.topmain3{
+    width: 70%;
+    margin: auto;
+}
+.topcontext p{
+      text-align: center;
+}
+.topcontext h1{
+      text-align: center;
+      margin-top: -20px;
+}
+.span4{
+    color: #EDA911;
+}
+.span5{
+    color: #5A2F27;
+}
+.cards2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card2{
+    height: 200px;
+    width: 25%;
+    border-radius: 15px 50px;
+    position: relative;
+    background-color: #EDA911;
+}
+.round{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #5A2F27;
+    color: white; 
+    left: -20px;
+    top: -20px;   
+}
+.card2text{
+    padding: 50px 20px;
+    color: white;
+}
+.main4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #5A2F27;
+}
+.leftmain4{
+    width: 50%;
+}
+.rightmain4{
+    width: 50%;
+}
+.imge4{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -50px;
+    right: 150px;
+}
+.main4heading{
+    height: 130px;
+    padding-right: 120px;
+}
+.main4card{
+    height: 230px;
+    background-color: white;
+    width: 350px;
+    position: relative;
+    margin-left: 250px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 44px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+.text4{
+    padding: 10px 5px;
+}
+.text4 h1{
+    margin: -10px 20px ;
+    font-size: 25px;
+    color: #EDA911;
+}
+.span6{
+    color: #EDA911;
+}
+.span7{
+    color: white;
+}
+.icons{
+   margin-top: 10px;
+   height: 80px;
+   width: 100px;
+   display: flex;
+   margin-left: 410px;
+}
+.icon1{
+    height: 10px;
+    width: 10px;
+}
+.main5{
+    height: 300px;
+}
+.main5text{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+.main5text h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.main5text p{
+    color: #EDA911;
+}
+.btn3{
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #5A2F27;
+    color: white;
+}
